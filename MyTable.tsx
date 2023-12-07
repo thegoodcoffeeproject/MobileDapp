@@ -41,10 +41,10 @@ const MyTable = ({ route }) => {
       </TouchableOpacity>
     </View>
     <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-      <TouchableOpacity onPress={() => navigation.navigate('MyTable2')}>
+      <TouchableOpacity onPress={() => navigation.navigate('MyTable3')}>
       <Image title="Go to Details" style={styles.tinyLogo} source={require('./images/image28.png')} />
       </TouchableOpacity>
-      <TouchableOpacity  onPress={() => navigation.navigate('Form1')}>
+      <TouchableOpacity  onPress={() => navigation.navigate('MyTable2')}>
       <Image title="Go to Details" style={styles.tinyLogo} source={require('./images/image25.png')} />
       </TouchableOpacity>
     </View>

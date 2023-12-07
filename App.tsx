@@ -4,6 +4,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import MyTable from './MyTable';
 import MyTable2 from './MyTable2';
+import MyTable3 from './MyTable3';
+import MyTable4 from './MyTable4';
 import Screen1 from './MyTable';
 import TradeBuyer from './Screens/TradeBuyer';
 import Shop from './Screens/Shop';
@@ -35,6 +37,8 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="MyTable">
         <Stack.Screen name="MyTable2" component={MyTable2}  options={{ headerShown: false }}/>
+        <Stack.Screen name="MyTable3" component={MyTable3}  options={{ headerShown: false }}/>
+        <Stack.Screen name="MyTable4" component={MyTable4}  options={{ headerShown: false }}/>
         <Stack.Screen name="MyTable" component={MyTable}  options={{ headerShown: false }}/>
         <Stack.Screen name="Community" component={Community} />
         <Stack.Screen name="TradeBuyer" component={TradeBuyer} options={{ headerShown: false }}/>
